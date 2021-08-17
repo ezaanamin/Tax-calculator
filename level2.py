@@ -53,9 +53,6 @@ def tax():
 		AFTR=b-sp
 		create_text(400,200,text=AFTR,font=("Arial",10))
 
-		
-	
-
 canvs.create_text(400,50,text='Tax Calculator',font=("Arial",40))
 e=Entry(canvs)
 canvs.create_window(400,100,window=e)
